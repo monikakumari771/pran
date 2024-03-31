@@ -1,0 +1,109 @@
+.Contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    gap: 20px;
+    background-color: blue;
+    
+    
+}
+.Rights img{
+height: 600px;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 30px;
+    width: 430px;
+    
+    color: #ffffff;
+}
+.below{
+    display: block;
+    width:400px;
+    height: 100vh;
+    background-color: #2f2e41;
+}
+input[type="text"],
+input[type="email"]{
+
+    background: white;
+    
+    border-radius: 20px;
+    height: 30px;
+    padding-left: 10px;
+ } 
+ .name-box,  .email-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+ }
+ .name-email-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+    padding-bottom: 20px;
+
+ }
+ .title-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 20px;
+    gap:5px;
+ }
+ .leave-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 20px;
+    
+
+ }
+
+ textarea{
+    border-radius: 10px;
+    padding-left: 10px;
+    
+ }
+.message-btn{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #2f2e41;
+    color: white;
+    transition: all 0.5s ;
+border: none;
+}
+.message-btn:hover{
+   transform: scale(0.95);
+
+}
+@media screen and (max-width:769px){
+   .Rights .img{
+      display: none;
+   }
+ .name-email-box{
+   flex-direction: column;
+   gap: 10px;
+ }
+   .left{
+      flex-direction: column;
+      width: 190px;
+      padding: 50px;
+
+   }
+   .title-box{
+      width: 100%;
+   }
+   
+}
+ 

@@ -1,0 +1,123 @@
+body{
+margin: 0;
+padding: 0;
+}
+#Register{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+  gap: 80px;
+  flex-wrap: wrap;
+  background-color: black;
+  background-image: url(/pran\ login/bg-image.jpg);
+  color: #ffffff;
+  padding: 50px;
+}
+.Register-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#171717;
+    border-radius: 20px;
+    padding: 30px;
+    width: 330px;
+}
+
+.Register-section h1{
+    font-size: 40px;
+    text-align: center;
+    color: #1080E9;
+}
+input[type="text"],
+input[type="mobile"],
+ input[type="email"], 
+ input[type="password"], 
+ input[type="confirm password"], select
+ {
+  background: transparent;
+  border: none;
+  
+  width:100%;
+  padding-bottom: 10px;
+  color: #ffffff;
+  
+}
+.input-box{
+    display: flex;
+    gap:10px;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.work-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.Register-all-btn {
+    font-size: 20px;
+    background-color: #1080E9;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+  }
+.Register a{
+text-decoration: none;
+color: #1080E9;
+}
+.Register-class{
+    
+    font-size: 30px;
+}
+.Register-study{
+   
+   font-size: 40px;
+   width: 100px;
+}
+.checkbox{
+    display:block;
+    margin-top: 15px;
+}
+.button-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.get-started-btn{
+    font-size: 20px;
+    background-color: #1080E9;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+
+}
+.sign-in-btn{
+    font-size: 20px;
+    background-color:black;
+    color: #ffffff;
+    border: 2px solid #1080E9;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.sign-in-btn:hover{
+background-color: #1080E9;
+border-radius: 5px;
+}
+.Register-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+@media screen and (max-width:769px){
+    .get-started-btn{
+        padding: 10px 10px;
+    }
+    
+}
+
